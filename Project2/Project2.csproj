@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Ablilities.png" />
+    <None Remove="back.png" />
+    <None Remove="Career.png" />
+    <None Remove="Images\Ablilities.png" />
+    <None Remove="Images\back.png" />
+    <None Remove="Images\Career.png" />
+    <None Remove="Images\DeleteImage.png" />
+    <None Remove="Images\Gallery.png" />
+    <None Remove="Images\Items.png" />
+    <None Remove="Images\Minus.png" />
+    <None Remove="Images\Plus.png" />
+    <None Remove="Images\Race.png" />
+    <None Remove="Images\religion.png" />
+    <None Remove="Images\resources.png" />
+    <None Remove="Items.png" />
+    <None Remove="Race.png" />
+    <None Remove="religion.png" />
+    <None Remove="resources.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ControlzEx" Version="5.0.2" />
+    <Resource Include="Images\Gallery.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Ablilities.png" />
+    <Resource Include="Images\back.png" />
+    <Resource Include="Images\Career.png" />
+    <Resource Include="Images\DeleteImage.png" />
+    <Resource Include="Images\Items.png" />
+    <Resource Include="Images\Minus.png" />
+    <Resource Include="Images\Plus.png" />
+    <Resource Include="Images\Race.png" />
+    <Resource Include="Images\religion.png" />
+    <Resource Include="Images\resources.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="GalleryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="GalleryPage.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

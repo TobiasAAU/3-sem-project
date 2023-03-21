@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CareerPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ItemsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RacePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ResourcesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReligionPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CareerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ItemsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GalleryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RacePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResourcesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReligionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
